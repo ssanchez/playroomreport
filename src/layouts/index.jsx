@@ -27,7 +27,7 @@ const Header = () => (
 					}}
 					to='/'
 				>
-					Gatsby
+					Playroom Report
 				</Link>
 			</h1>
 		</div>
@@ -38,10 +38,11 @@ const TemplateWrapper = ({ children }) => (
 	<div>
 		<Helmet
 			meta={[
-				{ name: 'description', content: 'Sample' },
-				{ name: 'keywords', content: 'sample, something' },
+				{ name: 'description', content: 'A weekly overview of toys, games, and kid gizmos.' },
+				{ name: 'keywords', content: 'playroom, report' },
+				{ name: 'robots', content: 'noindex, nofollow' },
 			]}
-			title='Gatsby Default Starter'
+			title='🎈 Playroom Report'
 		/>
 		<Header />
 		<div
