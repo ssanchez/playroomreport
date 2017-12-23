@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import './index.css'
 
 const Header = () => (
-	<div
+	<header
 		style={{
 			background: 'rebeccapurple',
 			marginBottom: '1.45rem',
@@ -31,7 +31,7 @@ const Header = () => (
 				</Link>
 			</h1>
 		</div>
-	</div>
+	</header>
 )
 
 const TemplateWrapper = ({ children }) => (
@@ -55,6 +55,22 @@ const TemplateWrapper = ({ children }) => (
 		>
 			{children()}
 		</div>
+		<footer>
+			<a
+				href='https://www.contentful.com/'
+				rel='nofollow noopener noreferrer'
+				target='_blank'
+			>
+				<img
+					alt='Powered by Contentful'
+					src='https://images.contentful.com/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg' // eslint-disable-line max-len
+					style={{
+						maxWidth: 100,
+						width: '100%',
+					}}
+				/>
+			</a>
+		</footer>
 	</div>
 )
 

@@ -18,6 +18,7 @@
     "quotes": 0,
     "radix": 0,
     "react/boolean-prop-naming": 1,
+    "react/forbid-component-props": 0,
     "react/jsx-indent": [1, "tab"],
     "react/jsx-indent-props": [1, "tab"],
     "react/jsx-no-bind": [2, {"ignoreRefs": true, "allowArrowFunctions": false, "allowBind": false}],
