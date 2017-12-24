@@ -3,6 +3,9 @@
   "env": {
     "browser": true
   },
+  "globals": {
+    "graphql": false
+  },
   "rules": {
     "default-case": 0,
     "import/extensions": 0,
@@ -19,11 +22,13 @@
     "radix": 0,
     "react/boolean-prop-naming": 1,
     "react/forbid-component-props": 0,
+    "react/forbid-prop-types": 0,
     "react/jsx-indent": [1, "tab"],
     "react/jsx-indent-props": [1, "tab"],
     "react/jsx-no-bind": [2, {"ignoreRefs": true, "allowArrowFunctions": false, "allowBind": false}],
     "react/jsx-sort-props": [1,{"ignoreCase": true,"callbacksLast": false,"shorthandFirst": false,"shorthandLast": false,"noSortAlphabetically": false,"reservedFirst": true}],
     "react/no-direct-mutation-state": 2,
+    "react/prefer-stateless-function": 0,
     "react/require-default-props": 0,
     "react/sort-prop-types": [1, {"ignoreCase": true, "callbacksLast": false, "requiredFirst": false}],
     "semi": [2, "never"],
