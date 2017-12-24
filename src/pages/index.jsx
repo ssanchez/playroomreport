@@ -9,7 +9,7 @@ class IndexPage extends Component {
 			<main>
 				{posts.map(({ node: post }) => (
 					<div key={post.id}>
-						<Link to={post.slug}>
+						<Link to={`${post.slug}/`}>
 							{post.title.title}
 						</Link>
 					</div>
