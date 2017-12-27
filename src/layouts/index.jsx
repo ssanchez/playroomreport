@@ -42,7 +42,7 @@ const TemplateWrapper = ({ children }) => (
 				{ name: 'keywords', content: 'playroom, report' },
 				{ name: 'robots', content: 'noindex, nofollow' },
 			]}
-			title='🎈 Playroom Report'
+			title='Playroom Report'
 		/>
 		<Header />
 		<div
