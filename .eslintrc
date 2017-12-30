@@ -27,6 +27,7 @@
     "react/jsx-indent-props": [1, "tab"],
     "react/jsx-no-bind": [2, {"ignoreRefs": true, "allowArrowFunctions": false, "allowBind": false}],
     "react/jsx-sort-props": [1,{"ignoreCase": true,"callbacksLast": false,"shorthandFirst": false,"shorthandLast": false,"noSortAlphabetically": false,"reservedFirst": true}],
+    "react/no-danger": 0,
     "react/no-direct-mutation-state": 2,
     "react/prefer-stateless-function": 0,
     "react/require-default-props": 0,

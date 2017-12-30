@@ -4,6 +4,7 @@ module.exports = {
 		siteUrl: `https://www.playroomreport.com`,
 	},
 	plugins: [
+		`gatsby-transformer-remark`,
 		`gatsby-plugin-react-helmet`,
 		{
 			resolve: `gatsby-source-contentful`,
